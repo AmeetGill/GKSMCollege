@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="projct.png" type="image/gif" sizes="26x26">
+<title>GKSM College Tanda</title>
+<style>
+.horizontal_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d4eff9;
+}
+
+.horizontal_bar li {
+    float: right;
+    
+}
+
+.horizontal_bar li a.active {
+    background-color: #62c9ef;
+    color:white;
+}
+
+.horizontal_bar li a {
+    display: block;
+    color: #0a3c47;;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.horizontal_bar li form input{
+	
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+
+li a:hover:not(.active) {
+    background-color: #62c9ef;
+    color: white;
+}
+
+
+.logo{
+	position:relative;
+	height:30%;
+	width:15%;;
+	margin-left:5%;
+	margin-top:-20px;
+}
+.Vertical_bar{
+    list-style-type: none;
+    margin-left:15px;
+    padding: 0;
+   margin-top:12%;
+   width:25%;
+    
+}
+.Vertical_bar li a{
+    display: block;
+    color: #0a3c47;
+    padding: 8px 16px;
+    text-decoration: none;
+    height:10%;
+    text-align:center;
+    font-size:30px;
+    background-color:#d4eff9;
+    margin:10px;
+    line-height:50px;
+    
+}
+.Vertical_bar li a.active {
+    background-color: #d4eff9;
+    color: #0a3c47;
+}
+
+html{
+	height:100%;
+}
+
+.Vertical_bar li a:hover{
+    background-color:  #62c9ef;
+    color: white;
+}
+
+.Vertical_bar li a span{
+	padding:5% 0;
+}
+
+.photo{
+	float:right;
+	margin-right:2%;
+	margin-top:2%;
+	width:70%;
+	height:45%;
+}
+
+
+.holiday_update{
+	border:2px solid #333;
+	float:left;
+	width:25%;
+	height:20%;
+	position:relative;
+	 margin-left:15px;
+}
+
+body{
+	overflow:scroll;
+	height:100%;
+}
+
+.side_bar{
+	list-style-type: none;
+    position:relative;
+    padding: 0;
+  //  border:2px solid #333;
+   width:70%;
+   height:50%;
+   margin-top:2%;
+   margin-right:2%;
+   
+   float:right;
+}
+
+.latest_news1{
+	list-style-type: none;
+    position:relative;
+    padding: 0;
+    width:46.4%;
+    margin-right:2%;
+   height:90%;
+   margin-top:1.5%;
+    //border:2px solid #333;
+    background-color:#f9fcff;
+    box-shadow:10px 10px 5px #888888;
+		float:right;
+}
+
+.latest_news2{
+	list-style-type: none;
+    position:relative;
+    padding: 0;
+    width:46.5%;
+    margin-left:3%;
+    margin-top:3%;
+   height:90%;
+    //border:2px solid #333;
+    background-color:#f9fcff;
+    box-shadow:10px 10px 5px #888888;
+		float:left;
+}
+
+.latest_news2 div.news_header{
+	//border:2px solid #333;
+	margin-top:0.5%;
+	margin-left:0.5%;
+	width:37%;
+	font-size:35px;
+	//background-color:#d4eff9;
+	color:#0a3c47;
+}
+</style>
+</head>
+<body>
+
+<ul class="horizontal_bar">
+	<li><form><input type="text" name="search" placeholder="Search.."> </form></li>
+	<li><a>Contact Us</a></li>
+ 	<li><a href="#Rti">RTI</a></li>
+  <li><a href="#Tenders">Tenders</a></li>
+  <li><a href="#Jobs">Jobs</a></li>
+  <li><a class="active" href="#home">Home</a></li>
+  </ul>
+
+<img src="book_0.jpg" alt="logo" class="photo">	
+
+<img src="projct.png" alt="logo" class="logo" width="250" height="200">	
+
+
+<div class="holiday_update">
+
+</div>
+
+
+<div class="side_bar">
+
+	<div class="latest_news1">
+	
+	</div>
+	
+	<div class="latest_news2">
+		<div class="news_header">
+			<h>Latest News</h>
+			<ul class="news_list">
+				<li><a>abc</a></li>
+				<li><a>acb</a></li>
+				<li><a>cbf</a></li>
+  </ul>
+ 				
+		</div>
+	</div>
+	
+
+
+</div>
+
+<ul class="Vertical_bar">
+  <li><a class="active" href="#academics"><span>Academics</span></a></li>
+  <li><a href="#abut_us">Admissions</a></li>
+  <li><a href="#STUDENT">Students</a></li>
+  <li><a href="#accrediations">Faculty</a></li>
+  <li><a href="#faculty">Campus Tour</a></li>
+  <li><a href="#abut_us">About Us</a></li>
+</ul>
+
+
+
+
+</body>
+</html>
+
